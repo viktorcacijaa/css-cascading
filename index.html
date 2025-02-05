@@ -1,27 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="hr">
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Cascade</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layout</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div id="outer-box" class="box">
-    <div class="box">
-      <p>Yellow Text</p>
-      <div class="box inner-box">
-        <p class="white-text">White Text</p>
-      </div>
+    <div class="outer-box">
+        <div class="inner-box">
+            <h2>Yellow Text</h2>
+            <div class="content-box">White Text</div>
+        </div>
+        <div class="inner-box">
+            <h2>Yellow Text</h2>
+            <div class="content-box">White Text</div>
+        </div>
     </div>
-    <div class="box">
-      <p>Yellow Text</p>
-      <div class="box inner-box">
-        <p class="white-text">White Text</p>
-      </div>
-    </div>
-  </div>
 </body>
-
 </html>
